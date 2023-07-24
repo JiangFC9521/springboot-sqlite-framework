@@ -7,7 +7,7 @@ swagger:
 
 spring:
   application:
-    name: springboot-mybatis-plus-frame
+    name: springboot-mybatis-plus-framework
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
