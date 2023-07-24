@@ -1,0 +1,24 @@
+server:
+  port: 8081
+
+swagger:
+  ui:
+    display: true
+
+spring:
+  application:
+    name: springboot-mybatis-plus-frame
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: org.sqlite.JDBC
+    url: jdbc:sqlite:/Users/jiangmengnan/fileTest/db/pro2.db
+    druid:
+      validation-query: select 1
+  sql:
+    init:
+      schema-locations: classpath:schema.sql
+      data-locations: classpath:data.sql
+      mode: always
