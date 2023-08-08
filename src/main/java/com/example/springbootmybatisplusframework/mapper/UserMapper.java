@@ -3,7 +3,7 @@ package com.example.springbootmybatisplusframework.mapper;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.example.springbootmybatisplusframework.pojo.User;
+import com.example.springbootmybatisplusframework.entity.UserEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -12,5 +12,5 @@ import org.apache.ibatis.annotations.Mapper;
  * CreateDate: 2023/7/21
  */
 @Mapper
-public interface UserMapper extends BaseMapper<User> {
+public interface UserMapper extends BaseMapper<UserEntity> {
 }

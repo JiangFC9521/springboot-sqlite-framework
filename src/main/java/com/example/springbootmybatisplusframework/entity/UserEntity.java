@@ -1,4 +1,4 @@
-package com.example.springbootmybatisplusframework.pojo;
+package com.example.springbootmybatisplusframework.entity;
 
 import lombok.Data;
 
@@ -8,7 +8,7 @@ import lombok.Data;
  * CreateDate: 2023/7/21
  */
 @Data
-public class User {
+public class UserEntity {
     private Long id;
     private String name;
     private Integer age;
