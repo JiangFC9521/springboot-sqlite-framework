@@ -1,5 +1,6 @@
 package com.example.springbootmybatisplusframework.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 /**
@@ -8,6 +9,7 @@ import lombok.Data;
  * CreateDate: 2023/7/21
  */
 @Data
+@TableName("user")
 public class UserEntity {
     private Long id;
     private String name;

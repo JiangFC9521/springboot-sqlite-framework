@@ -14,7 +14,7 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.sqlite.JDBC
-    url: jdbc:sqlite:/Users/jiangmengnan/fileTest/db/pro2.db
+    url: jdbc:sqlite:/Users/jiang/Test/db/pro.db
     druid:
       validation-query: select 1
   sql:
